@@ -1,0 +1,48 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #527286;
+}
+
+thead th:first-child {
+    background-color: #ffffff; 
+    border: 0;
+}
+
+.product-header {
+    background-color: #548fa7;
+    font-weight: bold;
+}
+
+.feature-header {
+    background-color: #548fa7; 
+}
+
+
+tbody tr:nth-child(odd) {
+    background-color: #d2ecf3; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #62a8c9; 
+}
+tbody tr:nth-child(odd) .feature-header {
+    background-color: #d2ecf3; 
+}
+
+tbody tr:nth-child(even) .feature-header {
+    background-color: #62a8c9; 
+}
+caption {
+    caption-side: bottom;
+    padding: 1cm;
+}
+h1{
+    text-align: center;
+}
