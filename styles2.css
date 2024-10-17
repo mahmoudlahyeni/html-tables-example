@@ -1,0 +1,29 @@
+table {
+    border: 1px solid #be1717;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    border: 1px solid #c71515;
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #958f8f;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+}
+h1{
+    text-align: center;
+    background-color:#c71515;
+    margin:0px;
+}
